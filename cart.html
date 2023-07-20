@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <!--css file-->
+    <link rel="stylesheet" href="utility.css">
+    <!--google-fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!---BootStrap/Js bundles link-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    
+        <!--JQuery file cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!--JavaScript File-->
+    <script src="test.js"></script>
+
+</head>
+
+<body>
+<!--Dynamic Header GO Live-->
+   <div id="header"></div>
+    
+<!--Cart page-->
+    <div class="cart">
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="grid-container row">
+
+                    <div class="grid-item-inner cart-item-1">
+                        <h4 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Item In Cart</h4>
+                    </div>
+                    <div class="col-sm">
+                        <div class="grid-item-inner cart-item-2">
+                            <img src="./img_ecom/Cheap-Mesh-Short-Sexy-Red-Clubwear-Dresses.webp" alt="" width="auto"
+                                height="200px">
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="grid-item-inner cart-item-3">
+                            <h6><strong>Red Skirt</strong></h6>
+                            <p>15$</p>
+                            <button style="background-color: rgb(255, 133, 89);border: none;border-radius: 5px;">
+                                <i class="fa-solid fa-trash"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="grid-item-inner cart-item-4">
+                            <button style="background-color: rgb(255, 133, 89);border: none;border-radius: 5px;">
+                                <i class="fa-sharp fa-solid fa-minus"></i></button>
+                            <input type="text" value="1" style="width: 70px; text-align: center;">
+                            <button style="background-color: rgb(255, 133, 89);border: none;border-radius: 5px;">
+                                <i class="fa-sharp fa-solid fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="card card-size">
+                    <div class="card-header">
+                        <h4 style="text-align: center;">Summury</h4>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Cost <span style="float: right;">$15</span></p>
+                        <p class="card-text">Shipping <span style="float: right;">$5</span></p>
+                        <hr>
+                        <p class="card-text"><strong>Total</strong><span style="float: right;"><strong>$20</strong></span></p>
+                        <input type="button" value="Checkout"
+                            style="width: 100%;border: none; background-color: coral;border-radius: 5px;">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Dynamic footer-->
+    <div id="footer"></div>
+   
+</body>
+
+</html>
